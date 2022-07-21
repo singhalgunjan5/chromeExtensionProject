@@ -1,0 +1,23 @@
+
+{
+    "name":"Color selector",
+    "desciption":"A color selector extension",
+    "version":"1.0",
+    "manifest_version":3,
+    "background":{
+        "service_worker":"background.js"
+    },
+    "permissions":[
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "icons":{
+        "16":"/images/select_16.png",
+        "32":"/images/select_32.png",
+        "198":"/images/select_192.png"
+    }
+
+}
